@@ -1,0 +1,29 @@
+/*general*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*header*/
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+.navbar-sx {
+    display: flex;
+    align-content: center;
+}
+.navbar-dx {
+    display: flex;
+    align-content: center;
+}
+ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+a {
+    text-decoration: none;
+}
