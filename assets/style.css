@@ -39,3 +39,16 @@ li {
     padding-right: 1rem;
     padding-left: 1rem;
 }
+
+/*jumbo*/
+
+.head-section {
+    box-sizing: border-box;
+
+}
+.content {
+    display: flex;
+}
+.title {
+    text-align: center;
+}
