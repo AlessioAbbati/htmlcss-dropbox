@@ -4,7 +4,9 @@
     margin: 0;
     padding: 0;
 }
-
+html  {
+    max-width: 1400px;
+}
 /*header*/
 
 .navbar {
@@ -44,11 +46,30 @@ li {
 
 .head-section {
     box-sizing: border-box;
+    background-color: cyan;
 
 }
 .content {
     display: flex;
+    margin-left: 15rem;
+    margin-right: 15rem;
 }
 .title {
     text-align: center;
+    font-size: 4rem;
+    margin-left: 13rem;
+    margin-right: 13rem;
+}
+.img {
+    background-image: url("../img/jumbo.png");
+    background-size: cover;
+}
+
+/*main*/
+
+.options {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
 }
