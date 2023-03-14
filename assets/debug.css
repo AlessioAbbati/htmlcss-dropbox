@@ -1,24 +1,10 @@
 /*header*/
 
-.navbar {
-    
-    
-}
-.content {
-    
-    
 
-}
-.text {
-    border: 1px solid black;
-    width: 130px;
-    height: 80px;
-}
-.img {
-    border: 1px solid black;
-    width: 800px;
-    height: 500px;
-}
+
+
+
+
 .option {
     border: 1px solid black;
     height: 70rem;
@@ -26,9 +12,7 @@
 }
 .option-x {
     border: 1px solid black;
-    width: 70rem;
+    width: 49rem;
     height: 15rem;
 }
-.options {
-    height: 120rem;
-}
+
