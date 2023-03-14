@@ -1,4 +1,4 @@
-/*general*/
+                    /*general*/
 
 * {
     
@@ -11,7 +11,7 @@ html  {
 body {
     margin-top: 5rem;
 }
-/*header*/
+                     /*header*/
 
 .navbar {
     position: fixed;
@@ -37,12 +37,12 @@ body {
     height: 1rem;
     padding-top: 2rem;
 }
-ul {
+.navbar ul {
     list-style: none;
     display: flex;
     align-items: center;
 }
-a {
+.navbar a {
     text-decoration: none;
 }
 li {
@@ -86,7 +86,10 @@ a:hover {
     flex: 0 0 30%;
 }
 
-/*main*/
+                   /*main*/
+
+/*section-1*/
+
 main .content {
     display: flex;
     flex-direction: column;
@@ -127,7 +130,7 @@ main .content {
 .option-title {
     position: absolute;
     top: 0;
-    border: 1px solid black;
+    border-bottom: 1px solid black;
     text-align: center;
     width: 250px;
     padding-top: 0.5rem;
@@ -136,6 +139,43 @@ main .content {
 .option-x .option-title {
     width: 820px;
 }
+.info {
+    padding-inline: 1.5rem;
+    padding-top: 4rem;
+}
+.info h3 {
+    padding-bottom: 1rem;
+}
+.info .euro {
+    padding-bottom: 1rem;
+}
+.time {
+    padding-bottom: 2rem;
+}
+.option-list li {
+    padding-bottom: 1rem;
+}
+.info .link {
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+}
+.info h4 {
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+}    
+
+.option-list  ul {
+    display: flex;
+    flex-direction: column;
+}
+.info ul {
+    list-style: none;
+}
+.info hr {
+    color: gray;
+    width: 20%;
+}
+/*section-2*/
 
 .c2 {
     display: flex;
