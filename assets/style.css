@@ -230,3 +230,39 @@ main .content {
     padding-bottom: 2rem;
 }
 
+/*section-4*/
+
+.s-4 {
+    margin-left: 15rem;
+    margin-right: 15rem;
+}
+.title-4 {
+    font-size: 2rem;
+    padding-bottom: 2rem;
+}
+.s-4 a {
+    padding-bottom: 5rem;
+}
+
+/*square*/
+
+.square {
+    width: 1920px;
+    height: 636px;
+    background-color: antiquewhite;
+}
+
+/*section-6*/
+
+.s-6 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #B4D0E7;
+    height: 10rem;
+    
+}
+.title-6 {
+    font-size: 2rem;
+}
+
