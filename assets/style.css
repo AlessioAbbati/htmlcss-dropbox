@@ -249,8 +249,8 @@ main .content {
 .square {
     width: 100%;
     height: 400px;
-    background-color: antiquewhite;
     display: flex;
+    padding-top: 4rem;
 }
 .square-sx {
     width: calc(100% / 3);
@@ -274,10 +274,30 @@ main .content {
 .sub-square {
     width: calc(100% / 2);
     height: calc(100% / 2);
-    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sq-img {
+    width: 50%;
+}
+.sq-img-cnt {
+    width: 40%;
+    padding-left: 2rem;
+    padding-top: 2rem;
+}
+.square-cnt hr {
+    color: lightgray;
+    width: 20%;
+    margin-left: 2rem;
+    margin-top: 2rem;
+}
+.square-cnt p {
+    padding-top: 2rem;
+    padding-inline: 2rem;
 }
 .sq1 {
-    background-color: #A2D39B;
+   background-color: #A2D39B;
 }
 .sq2 {
     background-color: #61082B;
