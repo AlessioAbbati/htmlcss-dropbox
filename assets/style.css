@@ -11,6 +11,9 @@ html  {
 body {
     margin-top: 5rem;
 }
+button:hover {
+    cursor: pointer;
+}
                      /*header*/
 
 .navbar {
@@ -59,9 +62,7 @@ li {
     border: 0;
 }
 
-button:hover {
-    cursor: pointer;
-}
+
 
 /*jumbo*/
 
@@ -100,6 +101,13 @@ button:hover {
     margin-top: 1rem;
     margin-bottom: 1rem;
 }
+
+
+                   /*main*/
+            
+
+/*section-1*/
+
 .head-section .content .text p {
     font-size: .9rem;
 }
@@ -108,12 +116,6 @@ button:hover {
     margin-top: 3rem;
     font-size: 2rem;
 }
-
-                   /*main*/
-            
-
-/*section-1*/
-
 main .content {
     display: flex;
     flex-direction: column;
@@ -128,6 +130,13 @@ main .content {
 }
 .sub-title {
     margin-top: 7rem;
+    margin-left: 2rem;
+}
+main .content .sub-title p {
+    font-size: .8rem;
+}
+.blue {
+    color: blue;
 }
 .title-2 {
     text-align: left;
@@ -175,6 +184,7 @@ main .content {
 }
 .time {
     padding-bottom: 2rem;
+    color: gray;
 }
 .option-list li {
     padding-bottom: 1rem;
@@ -209,7 +219,32 @@ main .content {
 .info-3 {
     padding-top: 1rem;
 }
-
+.option-list {
+    font-size: .9rem;
+}
+.option .info button {
+    background-color: #448BFF;
+    color: white;
+    height: 2rem;
+    border: 0;
+    font-size: .8rem;
+    padding-inline: 1rem;
+}
+.option .info p, h4 {
+    font-size: .8rem;
+}
+.fa-check {
+    color: blue;
+}
+.btn-x {
+    background-color: #448BFF;
+    border: 0;
+    color: white;
+    padding-inline: 1rem;
+    font-size: .8rem;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+}
 /*section-2*/
 
 .c2 {
@@ -233,6 +268,15 @@ main .content {
 }
 .c2 .text p {
     padding-bottom: 1rem;
+    font-size: .8rem;
+}
+.c2 .text button {
+    background-color: white;
+    border: 1px solid black;
+    padding-inline: 1rem;
+    font-size: .7rem;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
 }
 /*section-3*/
 
@@ -368,6 +412,14 @@ main .content {
 }
 .title-6 {
     font-size: 2rem;
+}
+.s-6 button {
+    background-color: white;
+    border: 0;
+    padding-inline: 1rem;
+    font-size: .7rem;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
 }
 
 /*section-7*/
