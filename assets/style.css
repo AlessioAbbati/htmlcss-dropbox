@@ -117,7 +117,7 @@ main .content {
 }
 .option {
     border: 1px solid black;
-    height: 956px;
+    height: 850px;
     width: 250px;
     position: relative;
 }
@@ -199,7 +199,17 @@ main .content {
     flex: 0 0 70%;
     min-width: 0;
 }
-
+.c2 .text {
+    padding-left: 2rem;
+    padding-top: 4rem;
+}
+.c2 .text h3 {
+    font-size: 1.5rem;
+    padding-bottom: 1rem;
+}
+.c2 .text p {
+    padding-bottom: 1rem;
+}
 /*section-3*/
 
 .title-3 {
@@ -320,17 +330,25 @@ main .content {
 .sq8 {
     background-color: #FFD830;
 }
+
 /*section-6*/
 
 .s-6 {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     background-color: #B4D0E7;
-    height: 10rem;
-    
+    height: 200px;
+    padding-left: 15rem;
+    padding-right: 15rem;
 }
 .title-6 {
     font-size: 2rem;
+}
+
+/*section-7*/
+
+.s-7 {
+    margin: 4rem 15rem 4rem 15rem
 }
 
