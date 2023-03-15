@@ -39,10 +39,39 @@ button:hover {
     height: 1rem;
     padding-top: 2rem;
 }
-.navbar ul {
+.navbar .dropdown {
     list-style: none;
     display: flex;
     align-items: center;
+    position: relative;
+}
+.dropdown-menu {
+    position: absolute;
+    left: 0;
+    top: calc(100% + .25rem);
+    background-color: white;
+    border: 1px solid black;
+    padding: .75rem;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .1);
+    opacity: 0;
+    transition: opacity 150ms ease-in-out, transform 150ms ease-in-out;
+    transform: translateY(-10px);
+}
+.d-m2 {
+    left: 9rem;
+}
+.d-m3 {
+    left: 15rem;
+}
+.dropdown > li:hover + .dropdown-menu {
+    opacity: 1;
+    transform: translateY(0);
+    pointer-events: auto;
+}
+.menu {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid black;
 }
 .navbar a {
     text-decoration: none;
