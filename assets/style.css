@@ -352,3 +352,47 @@ main .content {
     margin: 4rem 15rem 4rem 15rem
 }
 
+/*footer*/
+
+footer {
+	padding-top: 6rem;
+	padding-bottom: 6rem;
+	background-color: black;
+}
+footer .first-level-list {
+	display: flex;
+    justify-content: center;
+	list-style: none;
+}
+footer .first-level-list {
+	flex: 0 0 100%;
+}
+footer .first-level-list .column-links {
+	flex: 0 0 10%;
+}
+footer .first-level-list h5 {
+    color: white;
+    font-size: 1rem;
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+}
+footer .first-level-list li {
+    list-style: none;
+}
+footer .first-level-list a {
+    text-decoration: none;
+    color: white;
+    font-size: .6rem;
+    padding-top: .9rem;
+}
+.nav-footer hr {
+    width: 6%;
+    margin-top: 3rem;
+    margin-left: 18rem;
+}
+footer p {
+    color: white;
+    font-size: .6rem;
+    margin-top: 3rem;
+    margin-left: 18rem;
+}
