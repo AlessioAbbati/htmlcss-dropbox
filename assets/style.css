@@ -457,7 +457,16 @@ main .content .sub-title p {
 .s-7 {
     margin: 4rem 15rem 4rem 15rem
 }
-
+.s-7 hr {
+    margin-top: 2rem;
+}
+.s-7 p {
+    margin-top: 2rem;
+    font-size: .9rem;
+}
+.s-7 p i {
+    margin-left: 20rem;
+}
 /*footer*/
 
 footer {
@@ -501,4 +510,7 @@ footer p {
     font-size: .6rem;
     margin-top: 3rem;
     margin-left: 18rem;
+}
+footer .first-level-list a:hover {
+    color: red;
 }
