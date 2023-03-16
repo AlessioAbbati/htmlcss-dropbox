@@ -460,12 +460,31 @@ main .content .sub-title p {
 .s-7 hr {
     margin-top: 2rem;
 }
-.s-7 p {
+.s-7 a {
     margin-top: 2rem;
     font-size: .9rem;
 }
-.s-7 p i {
+.s-7 a i {
     margin-left: 20rem;
+}
+.s-7 .dropdown {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.dropdown > a:hover + .dropdown-menu {
+    opacity: 1;
+    transform: translateY(0);
+    pointer-events: auto;
+}
+.d-m4 {
+    left: 50rem;
+}
+.s-7 .dropdown .dropdown-menu .menu {
+    border: 0;
+    padding-top: 0;
+    padding-bottom: 0;
 }
 /*footer*/
 
